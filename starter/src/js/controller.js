@@ -112,6 +112,7 @@ const init = function () {
   searchView.addHandleSearch(searchRecipe);
   paginationView.addHandleRenderPerPage(renderSlideRecipe);
   personalView.addHandlerUpload(controlUploadRecipe);
+  console.log('hellllllo');
 };
 
 init();
